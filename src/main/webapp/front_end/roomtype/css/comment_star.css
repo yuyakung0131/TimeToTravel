@@ -1,0 +1,81 @@
+.star2
+{
+    font-size: 30px;
+    position: relative;
+    display: inline-block;
+  }
+  .star2 .star-under {
+    color: #ddd;
+    vertical-align: top;
+  }
+  .star2 .star-over {
+    color: rgba(243, 216, 18, 0.9);
+    color: linear-gradient( rgba(231,221,125,1) 37%, rgba(244,221,117,1) 59%);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .star3
+{
+    font-size: 30px;
+    position: relative;
+    display: inline-block;
+  }
+  .star3 .star-under {
+    color: #ddd;
+    vertical-align: top;
+  }
+  .star3 .star-over {
+    color: rgba(243, 216, 18, 0.9);
+    color: linear-gradient( rgba(231,221,125,1) 37%, rgba(244,221,117,1) 59%);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0%;
+    overflow: hidden;
+  }
+
+
+  .star4
+{
+    font-size: 20px;
+    position: relative;
+    display: inline-block;
+  }
+  .star4 .star-under {
+    color: #ddd;
+    vertical-align: top;
+  }
+  .star4 .star-over {
+    color: rgba(243, 216, 18, 0.9);
+    color: linear-gradient( rgba(231,221,125,1) 37%, rgba(244,221,117,1) 59%);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+    .star5
+{
+    font-size: 30px;
+    position: relative;
+    display: inline-block;
+  }
+  .star5 .star-under {
+    color: #ddd;
+    vertical-align: top;
+  }
+  .star5 .star-over {
+    color: rgba(243, 216, 18, 0.9);
+    color: linear-gradient( rgba(231,221,125,1) 37%, rgba(244,221,117,1) 59%);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0%;
+    overflow: hidden;
+  }
+  

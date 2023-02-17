@@ -1,0 +1,70 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+
+  <!-- header start except for toolbarFixed  -->
+         <header class="header-section header-normal">
+        </header>
+        <div class="top-nav">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <ul class="tn-left">
+                            <img class="tttlogo" src="img/ttt-LOGO.png" alt="">
+                            <div>Time to Travel</div>
+                          <div class="search-icon search-switch">
+                                <span class="icon"><img class="searchicon" src="img/magnifying-glass.png" alt=""></span>
+                                <input type="search" style="border:2px solid black" id="search" placeholder="探索..." />
+                            </div>
+                        </ul>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="tn-right">
+                            <div class="top-social">
+                                <a href="./tktShoppingCart.html"><img class="shoppingCartIMG"
+                                        src="img/shopping-cart_1.png" alt="">
+                                </a>
+                             <div class="dropdown">
+                                    <a class="dropbtn ">
+                                    <img class="account" src="img/account.png" alt=""></a>
+                                    <div class="dropdown-content">
+                                      <a href="<%=request.getContextPath()%>/front_end/member/regist.jsp">註冊/登入</a>
+                                    </div>
+                                  </div>
+                                <div class="language-option">
+                                    <img class="flag" src="img/taiwan.png" alt="">
+                                    <span>TW </span>
+                                </div>
+								<form Method="post" action="member.do" id="memberCenterForm">
+								<input type="hidden" name="member_email" value="${memberVO.member_email}">
+									<input type="hidden" name="action" value="clickMemberCenter">
+								</form>
+							</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+  
+  <div class="menu-item">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-10">
+                        <div class="nav-menu">
+                            <nav class="mainmenu">
+                                <ul>
+                                    <li><a href="./index.html">|&nbsp;&nbsp;首頁</a></li>
+                                    <li><a href="./rooms.html">|&nbsp;&nbsp;住宿</a></li>
+                                    <li><a href="./ticket.html">|&nbsp;&nbsp;票券</a></li>
+                                    <li><a href="./itinerary.html">|&nbsp;&nbsp;行程</a></li>
+                                    <li><a href="<%=request.getContextPath()%>/front_end/article/listAllArticle.jsp">|&nbsp;&nbsp;文章</a></li>
+                                    <li><a href="./firm.html">|&nbsp;&nbsp;廠商</a></li>
+                                    <li><a href="<%=request.getContextPath()%>/front_end/news/news_front_getAll.jsp">|&nbsp;&nbsp;最新消息</a></li>
+                                    <li><a href="./qa.html">|&nbsp;&nbsp;常見問題</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+          <!-- Header End except for toolbarFixed -->

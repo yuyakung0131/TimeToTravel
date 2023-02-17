@@ -1,0 +1,298 @@
+.container-all {
+    display: flex;
+    align-items: stretch;
+}
+
+
+
+/* html,
+body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+} */
+
+#sidebar {
+    width: 250px;
+    height: 100vh;
+    /* background-color: rgb(70, 109, 192); */
+    background-color: rgb(0, 43, 65);
+    color: white;
+    transition: 1s;
+    overflow: scroll;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px ;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    margin: 80px 0 5px 0;
+}
+
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    background: rgb(10, 52, 94);
+}
+
+/* ::-webkit-scrollbar {
+   display: none;
+} */
+
+/* body {
+    -ms-overflow-style: none;
+}
+
+html {
+    overflow: -moz-hidden-unscrollable; /*注意！若只打 hidden，chrome 的其它 hidden 會出問題*/
+/* height: 100%; */
+/* } */
+
+/* body {
+	height: 100%;
+	width: calc(100vw + 18px); /*瀏覽器滾動條的長度大約是 18px*/
+/* overflow: auto; */
+/* } */
+
+
+#sidebar.active {
+    margin-left: -200px;
+}
+
+.active2 {
+    background-color: rgb(164, 214, 230);
+    color: rgb(0, 43, 65) !important;
+}
+
+#sidebar p {
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-weight: 400px;
+}
+
+#sidebar ul li a {
+    padding: 10px;
+    font-size: 20px;
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding-right: 10px;
+    margin: 0px 5px;
+    border-radius: 2px;
+}
+
+#sidebar ul li a:hover {
+    background-color: rgb(164, 214, 230);
+    color: rgb(70, 109, 192);
+    color: rgb(0, 43, 65);
+
+}
+
+.container-right {
+    
+    background-color: rgb(248, 248, 254);
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    /* padding: 30px; */
+    padding: 0px;
+    /* overflow: hidden; */
+    overflow-y: auto;
+    overflow-x: hidden;
+
+}
+
+.collapse-btn {
+    position: relative;
+    top: 2%;
+    left: 210px;
+    background-color: rgb(0, 43, 65);
+    color: white;
+    border: none;
+    font-size: 20px;
+}
+
+.collapse-btn:hover {
+    /* background-color: rgb(84, 123, 206); */
+    background-color: rgb(0, 43, 65);
+    transition: 0.1s;
+}
+
+
+.bi {
+    float: right;
+}
+
+tr {
+    background-color: rgb(255, 255, 255);
+}
+
+ul ul li a {
+    /* background-color: rgb(84, 122, 206);  */
+    background-color: rgb(21, 84, 115);
+    font-size: 18px !important;
+}
+
+#logo {
+    object-position: center center;
+    width: 150px;
+}
+
+.header {
+    height: 50px;
+    display: block;
+    background-color: rgb(255, 255, 255);
+    box-shadow: -2px -2px 8px rgb(81 81 81 / 65%);
+}
+
+#logout {
+    text-decoration: none;
+    float:right;
+}
+
+.bi-box-arrow-right {
+    padding-left: 3px;
+}
+
+.float-right {
+    padding: 12px;
+    float:right;
+}
+
+.h1 {
+    padding: 0;
+    margin: 1%;
+}
+
+h1 {
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(0, 43, 65);
+    text-decoration: underline;
+}
+
+hr {
+    border: 1px dashed rgb(255, 255, 255);
+}
+
+
+.right-down {
+    margin: 0 0 0 2%;
+    padding: 0;
+}
+
+.nav {
+    margin: 0 1%;
+}
+
+.nav-tabs .nav-link.active {
+  
+    /* border: 1px solid white; */
+    background-color: rgb(164, 214, 230);
+    border-color: rgb(164, 214, 230);
+    font-weight: 500;
+    font-size: 16px;
+    font-weight: 600;
+    border : 2;
+}
+
+.nav-tabs .nav-link {
+    border: 1px solid  rgb(217, 233, 240); ;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 43, 65);
+    font-size: 16px;
+}
+
+.nav-link:hover {
+    border: 1px solid  rgb(217, 233, 240); ;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+    background-color: rgb(240, 243, 244);;
+    color: rgb(0, 43, 65);
+    font-size: 16px;
+    /* font-weight: 600; */
+}
+
+table td,
+table th {
+    white-space: nowrap;
+    font-size: 14px;
+}
+.search{
+    margin: 1% 0;
+    text-align: left;
+}
+
+.tab-content {
+    display: block;
+    /* height: 100vh; */
+    height:400px;
+    background-color: rgb(255, 255, 255);
+    margin: 0 1%;
+    padding: 3;
+    overflow: scroll;
+    border: 1px solid rgb(190, 239, 255);
+}
+
+#itr-1-2{
+    text-align: left;
+    padding: 10px;
+}
+
+td,table{
+    border:gray;
+}
+
+#btn-search{
+    font-weight: 500;
+    background-color: rgb(0, 43, 65);
+    color: white;
+    border: none;
+    font-size: 16px;
+}
+
+.btn,button:focus{
+    outline: none;
+    border: 0px;
+}
+
+
+
+
+@media(max-width:600px) {
+    #sidebar {
+        margin-left: -100px;
+        width: 150px;
+        font-size: 20px;
+
+    }
+
+    .collapse-btn {
+        position: relative;
+        top: 1%;
+        left: 110px;
+    }
+
+    #sidebar.active {
+        margin-left: 0px;
+    }
+
+    #sidebar ul p {
+        visibility: hidden;
+    }
+
+
+}
+
+@media(max-width:681px) {
+    .nav {
+        flex-direction: column
+    }
+}

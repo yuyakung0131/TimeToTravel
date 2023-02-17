@@ -1,0 +1,53 @@
+#buyer-board {
+
+    position: relative;
+}
+
+.tktorder-item {
+    position: relative;
+    z-index: 9;
+}
+
+.tktorder-item .creattktorder-menu {
+    text-align: left;
+}
+
+.tktorder-item .creattktorder-menu .tktordermenu {
+    display: inline-block;
+}
+
+.tktorder-item .creattktorder-menu .tktordermenu li {
+    padding: 5px;
+    list-style: none;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+}
+
+.tktorder-item .creattktorder-menu .tktordermenu li a {
+    font-size: 16px;
+    color: #19191a;
+    font-weight: 500;
+    display: inline-block;
+    position: relative;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.tktorder-item .creattktorder-menu .tktordermenu li img {
+    height: 18px;
+    width: 20px;
+    margin-bottom: 5px;
+}
+
+.over__button {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+}
+
+.tktordersubmit {
+    border-radius: 10%;
+    border-color: blanchedalmond;
+}

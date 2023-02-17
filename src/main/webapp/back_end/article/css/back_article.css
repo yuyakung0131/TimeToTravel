@@ -1,0 +1,116 @@
+#tab-1 .rArticle-btn{
+    background-color: rgb(0, 43, 65);
+   }
+#tab-2 {
+    text-align: initial;
+}
+
+#tab-2 .row {
+    margin-top: 10px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+#tab-2 .deal {
+    width: 144px;
+    border: 1px solid #A9A9A9;
+    font-weight: bold;
+    margin-left: 12px;
+}
+
+#tab-2 .dealDate{
+    width: 200px;
+    height: 41.99px;
+    border: 1px solid #A9A9A9;
+    font-weight: bold;
+    margin-left: 12px;
+    border-radius: 5px;
+}
+
+#tab-2 .rArticle-text {
+    border-radius: 5px;
+    margin-left: 12px;
+    width: 200px;
+    border: 1px solid #A9A9A9;
+}
+
+#tab-2 .deal:focus{
+    border: 2px solid rgb(0, 43, 65);
+}
+#tab-2 .rArticle-text:focus{
+    border: 2px solid rgb(0, 43, 65);
+}
+#tab-2 .dealDate:focus {
+    border: 2px solid rgb(0, 43, 65);
+}
+
+#tab-2 .rArticle-btn{
+ margin-top: 10px;
+ margin-left: 12px;
+ margin-bottom: 10px;
+ background-color: rgb(0, 43, 65);
+}
+#tab-2 .arArticle
+{
+    font-size: 1rem;
+    text-decoration:none;
+}
+
+
+#tab-3 .rComment-btn{
+    background-color: rgb(0, 43, 65);
+   }
+#tab-4 {
+    text-align: initial;
+}
+
+#tab-4 .row {
+    margin-top: 10px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+#tab-4 .deal {
+    width: 144px;
+    border: 1px solid #A9A9A9;
+    font-weight: bold;
+    margin-left: 12px;
+}
+
+#tab-4 .dealDate{
+    width: 200px;
+    height: 41.99px;
+    border: 1px solid #A9A9A9;
+    font-weight: bold;
+    margin-left: 12px;
+    border-radius: 5px;
+}
+
+#tab-4 .rComment-text {
+    border-radius: 5px;
+    margin-left: 12px;
+    width: 200px;
+    border: 1px solid #A9A9A9;
+}
+
+#tab-4 .deal:focus{
+    border: 2px solid rgb(0, 43, 65);
+}
+#tab-4 .rComment-text:focus{
+    border: 2px solid rgb(0, 43, 65);
+}
+#tab-4 .dealDate:focus {
+    border: 2px solid rgb(0, 43, 65);
+}
+
+#tab-4 .rComment-btn{
+ margin-top: 10px;
+ margin-left: 12px;
+ margin-bottom: 10px;
+ background-color: rgb(0, 43, 65);
+}
+#tab-4 .arArticle
+{
+    font-size: 1rem;
+    text-decoration:none;
+}

@@ -1,0 +1,47 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+    
+    <!-- Offcanvas Menu Section Begin -->
+    <div class="offcanvas-menu-overlay"></div>
+    <div class="tttlogotitle">
+         <img class="tttlogo1" src="img/ttt-LOGO.png" alt="">
+        <div>Time to Travel</div>
+    </div>
+    <div class="canvas-open">
+        <i class="icon_menu"></i>
+    </div>
+    <div class="offcanvas-menu-wrapper">
+        <div class="canvas-close">
+            <i class="icon_close"></i>
+        </div>
+
+          <div class="search-icon search-switch">
+            <span class="icon"><img class="searchicon" src="img/magnifying-glass.png" alt=""></span>
+            <input type="search" style="border:2px solid black" id="search" placeholder="探索..." />
+        </div>
+        <div class="top-social"> <a href="<%=request.getContextPath()%>/front_end/member/login.jsp">
+                <img class="account" src="img/account.png" alt="">
+            </a></div>
+
+
+        <nav class="mainmenu mobile-menu">
+            <ul>
+                <li><a href="./index.html">首頁</a></li>
+                <li><a href="./rooms.html">住宿</a></li>
+                <li><a href="./ticket.html">票券</a></li>
+                <li><a href="./itinerary.html">行程</a></li>
+                <li><a href="<%=request.getContextPath()%>/front_end/article/listAllArticle.jsp">文章</a></li>
+                <li><a href="./firm.html">廠商</a></li>
+                <li><a href="./lastnews.html">最新消息</a></li>
+                <li><a href="./qa.html">常見問題</a></li>
+            </ul>
+        </nav>
+        <div id="mobile-menu-wrap"></div>
+
+        <div class="footeritem">
+            <a href="./aboutus.html">關於我們</a>
+            <a href="./contactus.html">聯繫我們</a>
+            <!-- <a href="./QA.html">常見問題</a> -->
+        </div>
+    </div>
+    <!-- Offcanvas Menu Section End -->

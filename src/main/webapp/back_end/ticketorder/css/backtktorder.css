@@ -1,0 +1,27 @@
+#myTable.tablesorter {
+    text-align: center;
+    font-weight: bold;
+    font: 14px;
+
+}
+
+.deletebutton img {
+    width: 15px;
+    height: 15px;
+    line-height: 20px;
+}
+
+.editbutton img {
+    width: 15px;
+    height: 15px;
+    line-height: 20px;
+}
+
+.selecttktAllorder {
+    text-decoration: none;
+    color: white;
+}
+
+.selecttktAllorder:hover {
+    color: white;
+}

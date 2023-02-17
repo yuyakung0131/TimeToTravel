@@ -1,0 +1,41 @@
+<%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+
+  					<div class="row">
+                    <div class="col-md-12">
+   		
+
+  <%if (pageNumber>1) {%>
+  
+<nav aria-label="Page navigation example">
+  <ul class="pagination" style="margin-left:46%">
+    <li class="page-item">
+     <%if (rowsPerPage<rowNumber) {%>
+    <%if(pageIndex>=rowsPerPage){%>    
+      <a class="page-link" href="<%=request.getRequestURI()%>?whichPage=<%=whichPage-1%>" aria-label="Previous">
+       
+        <span aria-hidden="true">&laquo;</span>
+      </a>
+         <%}%>
+      <%}%>  
+    </li>
+  
+             <%for (int i=1; i<=pageNumber; i++){%>
+    <li class="page-item"><a class="page-link" href="<%=request.getRequestURI()%>?whichPage=<%=i%>"><%=i%></a></li>
+             <%}%> 
+  <%if (rowsPerPage<rowNumber) {%>
+      <%if(pageIndex<pageIndexArray[pageNumber-1]){%>
+    <li class="page-item">
+      <a class="page-link" href="<%=request.getRequestURI()%>?whichPage=<%=whichPage+1%>" aria-label="Next">
+        <span aria-hidden="true">&raquo;</span>
+            <%}%>
+  <%}%>  
+        
+      </a>
+    </li>
+  </ul>
+</nav>	
+  <%}%>
+
+               
+                    </div>
+                    </div>

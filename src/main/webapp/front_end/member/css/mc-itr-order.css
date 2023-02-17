@@ -1,0 +1,46 @@
+.order-top {
+    padding-bottom: 3%;
+}
+
+
+.favorite-top {
+    padding-bottom: 3%;
+}
+
+
+.p {
+    font-size: 14px;
+    font-family: "Cabin", sans-serif;
+    color: #6b6b6b;
+    font-weight: 900;
+    line-height: 20px;
+    margin: 0 0 0px 0;
+}
+
+#row {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+#row:hover {
+    box-shadow: 0 0 11px rgba(33, 33, 33, .2);
+    cursor: pointer;
+}
+
+#col {
+    padding-left: 0%;
+    padding-right: 0%;
+}
+
+.card-body{
+    padding-top: 10px;
+    padding-bottom: 0px;
+}
+
+.inf{
+    margin-bottom: 15px;
+}
+
+.card, .order-top{
+    margin: 0 20px;
+}

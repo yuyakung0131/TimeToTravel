@@ -1,0 +1,60 @@
+.favorite-top {
+    padding-bottom: 3%;
+}
+
+#star {
+    position: absolute;
+    bottom: 0;
+}
+
+#price {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    text-align: right;
+}
+
+.price {
+    margin: 0 0 0px 0;
+}
+
+#heart-btn{
+    background-color: transparent;
+        border: none;
+       cursor: pointer;
+    font-size: 20px;
+  }
+
+
+.fave-list{
+    display: flex;
+    justify-content: space-between;
+}
+
+#heart:hover{
+color:gary;
+}
+
+#row {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+#row:hover {
+    box-shadow: 0 0 11px rgba(33, 33, 33, .2);
+    cursor: pointer;
+}
+
+#col {
+    padding-left: 0%;
+    padding-right: 0%;
+}
+
+.card-body{
+    padding-top: 10px;
+}
+
+
+.card,.favorite-top{
+    margin: 0 20px;
+}

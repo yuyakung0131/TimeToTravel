@@ -1,0 +1,155 @@
+#tab-1{
+    text-align: initial;
+}
+
+.m-search-title,.m-search-list
+{
+    margin-bottom: 0;
+    margin-top: 1%;
+    margin-left: 1%;
+    font-size: 25px;
+    font-weight: bolder;
+    text-align: left;
+}
+
+.m-sub-title
+{
+    margin-bottom: 0;
+    margin-left:3%;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.tab-pane .c-search {
+    margin-top: 1%;
+    padding: 0;
+    margin-left: 8px;
+    margin-bottom: 0px;
+    width: 25%;
+    height: 39px;
+    border: 1px solid #b3b3b3b3;
+    border-radius: 5px;
+}
+
+.tab-pane .nice-select{
+    margin-top: 1%;
+    margin-left: 50px;
+    margin-bottom: 0px;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #b3b3b3b3;
+    font-weight: bold;
+}
+
+.tab-pane .nice-select ul li {
+    width: 130px;
+    height: 40px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.row-1-button {
+    background-color: #004F98;
+    border: 1px solid #004F98;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    user-select: none;
+    font-size: 20px;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    transition: none !important;
+    color: white;
+}
+
+
+.row-2-button
+{
+    margin-top: 10px;
+    margin-left: 10px ;
+    background-color: #004F98;
+    border: 1px solid #004F98;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    user-select: none;
+    font-size: 20px;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    transition: none !important;
+    color: white;
+}
+
+.row-2-button:hover,.row-1-button:hover {
+    border: 1px solid #004F98;
+    background-color: #004F98;
+    background-image: linear-gradient(rgb(0 0 0/5%) 0 0);
+}
+
+.tab-pane .table .btn-enable{
+    background-color: #4CBB17;
+    border:0;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    user-select: none;
+    font-size: 20px;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    transition: none !important;
+    color: white;
+}
+
+.tab-pane .table .btn-disable{
+    background-color: red;
+    border:0;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    user-select: none;
+    font-size: 20px;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    transition: none !important;
+    color: white;
+}
+
+.page-nav{
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.page-nav ul li a{
+    font-weight: bolder;
+    color: rgb(20, 20, 20);
+}
+
+.page-nav ul li a:hover{
+    background-color: rgb(220,250,250);
+    color: rgb(20, 20, 20);
+}
+
+.stateChangeEnable{
+    display: inline-block;
+}
+.stateChangeDisable{
+    display: inline-block;
+}
+
+.state-ermsg{
+    display: block;
+    margin-bottom: 0;
+    margin-top: 3px;
+    margin-left: 54px;
+    font-weight: bold;
+    color: red;
+}
